@@ -1,0 +1,92 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="SortableLegend" itemID="5c19dbe8-00000205" linkageExportForAS="true" linkageClassName="SortableLegend" lastModified="1545282026" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="SortableLegend" currentFrame="1">
+      <layers>
+        <DOMLayer name="Labels" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" name="Ascending" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" name="Descending" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" name="None" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Arrow" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Arrow" name="arrow">
+                  <matrix>
+                    <Matrix a="0.495513916015625" d="0.495513916015625" tx="-7.4" ty="3.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.85" y="14.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ArrowDown" name="arrow" selected="true">
+                  <matrix>
+                    <Matrix tx="-7.45" ty="3.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.35" y="7.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="InfoBox" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoBox" top="-11.85" left="18.95" width="60" height="37" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-48.95" ty="-6.65"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>DMG</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="RobotoCondensed-Regular" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Border" color="#00FFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 2" name="border">
+                  <matrix>
+                    <Matrix a="0.639999389648438" d="0.410003662109375" tx="-32" ty="-20.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="49.9"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

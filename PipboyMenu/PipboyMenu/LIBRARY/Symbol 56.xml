@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 56" itemID="5c1352d2-0000020f" linkageExportForAS="true" linkageClassName="PipboyMenu_fla.WeaponArmorHolder_10" lastModified="1544396376">
+  <timeline>
+    <DOMTimeline name="Symbol 56">
+      <layers>
+        <DOMLayer name="Labels Layer" color="#5591E7">
+          <frames>
+            <DOMFrame index="0" name="Weapon" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" name="Armor" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9C59C6" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 53" centerPoint3DX="14.85" centerPoint3DY="10.5">
+                  <matrix>
+                    <Matrix a="1.18521118164063" d="1.18765258789063" tx="-0.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 55" centerPoint3DX="14.85" centerPoint3DY="10.65">
+                  <matrix>
+                    <Matrix a="1.18521118164063" d="1.18765258789063" tx="-0.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

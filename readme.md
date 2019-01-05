@@ -17,10 +17,11 @@ Once compiled/published, place the SWFs in `Fallout 4\Data\Interface`.
 The UI code uses a `Shared` package. However this is not stored in a one off swf. Instead peices are put in each published swf. Normally you'd just modify them like any other file, but in this case `PipboyMenu.swf` loads `PipBoy InvPage.swf`. So the shared code from `PipboyMenu.swf` is already loaded memory by the time it loads in `PipBoy InvPage.swf`. So basically if you have to edit any `Shared` package code, make sure to publish `PipboyMenu.swf` as well!
 
 # Live Reloading
-By default (for some reason...) all of Fallout 4's UI code is loaded on demand and not cached.
+By default (for some reason...) most (if not all) of Fallout 4's UI code is loaded on demand and not cached. So you can leave the game running, save a new swf and press tab to view your new pipboy immediately. 
 
 # Logging Trace Statements
 [Fallout 4 Script Extender](http://f4se.silverlock.org/) is needed. Once installed, create a file called `f4se.ini` in `Fallout 4\Data\F4SE` and add the following to the file.
+
 ```
 [Interface]
 bEnableGFXLog=1
@@ -33,8 +34,6 @@ Note: Before I found out about this (Thanks [Scrivener](https://github.com/Scriv
 
 # Fonts Fonts Fonts!
 I've included fonts_en.swf which is needed to compile. 
-
-
 
 # Thanks
 Special thanks to [Scrivener](https://github.com/Scrivener07) for answering my questions about Fallout 4's interface code and quirks!

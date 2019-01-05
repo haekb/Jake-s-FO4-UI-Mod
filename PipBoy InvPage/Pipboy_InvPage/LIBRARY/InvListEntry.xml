@@ -1,0 +1,542 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="InvListEntry" itemID="5c1579f9-00000289" linkageExportForAS="true" linkageClassName="InvListEntry" lastModified="1545197055" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="InvListEntry">
+      <layers>
+        <DOMLayer name="Label" color="#669900" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" name="Normal" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" name="Expanded" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Outline" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" joints="miter">
+                        <fill>
+                          <SolidColor color="#FFFFFF" alpha="0.498039215686275"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!485 20|16000 20!16000 20|16000 819!16000 819|485 819!485 819|485 20"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="BasicOutlineSmall" name="Outline1">
+                  <matrix>
+                    <Matrix tx="24.25" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="387.85" y="19.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" joints="miter">
+                        <fill>
+                          <SolidColor color="#FFFFFF" alpha="0.498039215686275"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!485 20|16000 20!16000 20|16000 2420!16000 2420|485 2420!485 2420|485 20"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="BasicOutline" name="Outline2">
+                  <matrix>
+                    <Matrix tx="24.25" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="387.85" y="60"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Mag Icon" color="#E4D18A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 58" name="SearchIcon_mc" centerPoint3DX="401" centerPoint3DY="29.2">
+                  <matrix>
+                    <Matrix d="0.974395751953125" tx="391" ty="19.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Star Icon" color="#4E9EC5" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Fav" name="LegendaryIcon_mc" centerPoint3DX="357.55" centerPoint3DY="26.5">
+                  <matrix>
+                    <Matrix d="0.974395751953125" tx="350" ty="19.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Heart Icon" color="#AE7BAB" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 68" name="FavIcon_mc" centerPoint3DX="377.55" centerPoint3DY="25.25">
+                  <matrix>
+                    <Matrix d="0.974395751953125" tx="370" ty="19.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Selection Icon" color="#7E28F9" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 66" name="EquipIcon_mc" centerPoint3DX="19.6" centerPoint3DY="24.6">
+                  <matrix>
+                    <Matrix d="0.974395751953125" tx="14.1" ty="19.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Info" color="#9933CC" autoNamed="false" open="false" layerType="folder"/>
+        <DOMLayer name="Box10" color="#9933CC" parentLayerIndex="6" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoBox10" width="72.8" height="56.25" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix d="0.995819091796875" tx="724.85" ty="63"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Label</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Box9" color="#00FFFF" parentLayerIndex="6" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoBox9" width="72.8" height="56.25" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix d="0.995819091796875" tx="648.05" ty="63"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Label</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Box8" color="#FF4F4F" parentLayerIndex="6" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoBox8" width="72.8" height="56.25" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix d="0.995819091796875" tx="571.6" ty="63"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Label</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Box7" color="#669900" parentLayerIndex="6" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoBox7" width="72.8" height="56.25" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix d="0.995819091796875" tx="494.8" ty="63"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Label</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Box6" color="#FF4FFF" parentLayerIndex="6" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoBox6" top="-11.85" left="18.95" width="60" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix d="0.998748779296875" tx="719.05" ty="14.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>300.0</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoBox6" width="72.8" height="56.25" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix d="0.994171142578125" tx="418" ty="63"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Label</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Box5" color="#FF800A" parentLayerIndex="6" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoBox5" top="-11.85" left="18.95" width="60" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix d="0.998748779296875" tx="655.05" ty="14.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>300.0</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoBox5" width="72.8" height="56.25" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix d="0.995819091796875" tx="724.85" ty="3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Label</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Box4" color="#9933CC" parentLayerIndex="6" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoBox4" top="-11.85" left="18.95" width="60" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix d="0.998748779296875" tx="591.05" ty="14.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>300.0</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoBox4" width="72.8" height="56.25" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix d="0.995819091796875" tx="648.05" ty="3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Label</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Box3" color="#00FFFF" parentLayerIndex="6" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoBox3" top="-11.85" left="18.95" width="60" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix d="0.998748779296875" tx="527.05" ty="14.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>300.0</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoBox3" width="72.8" height="56.25" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix d="0.995819091796875" tx="571.6" ty="3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Label</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Box2" color="#FF4F4F" parentLayerIndex="6" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoBox2" top="-11.85" left="18.95" width="60" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix d="0.998748779296875" tx="463.05" ty="14.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>300.0</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoBox2" width="72.8" height="56.25" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix d="0.995819091796875" tx="494.8" ty="3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Label</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Box1" color="#669900" parentLayerIndex="6" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoBox1" top="-11.85" left="18.95" width="60" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix d="0.998748779296875" tx="399.05" ty="14.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>300.0</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="infoBox1" width="72.8" height="56.35" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix d="0.994171142578125" tx="418" ty="3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Label</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Description" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="descriptionField" top="-2.35" width="387.75" height="76" isSelectable="false" renderAsHTML="true" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="26.25" ty="45.35"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>HELLO I AM DESCRIPTION</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" rotation="true" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Item Text" color="#B6B0BE" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="textField" width="387.75" height="36" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="26.25" ty="3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Heavy Combat Armor Left Leg</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="5" lineHeight="23.75" size="18" bitmapSize="360" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Border" color="#F95F49" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 2" name="border" centerPoint3DX="82.8" centerPoint3DY="50.25">
+                  <matrix>
+                    <Matrix a="7.99992370605469" d="0.389755249023438" ty="0.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.25"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 2" name="borderExp" centerPoint3DX="82.8" centerPoint3DY="152.5">
+                  <matrix>
+                    <Matrix a="7.99992370605469" d="1.20002746582031" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

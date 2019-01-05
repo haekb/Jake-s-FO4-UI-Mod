@@ -1,0 +1,45 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 30" itemID="5c1352d2-00000201" linkageExportForAS="true" linkageClassName="BB_DMGDRWidget_Entry" lastModified="1544771353">
+  <timeline>
+    <DOMTimeline name="Symbol 30">
+      <layers>
+        <DOMLayer name="Layer 1" color="#A947D3" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="Value_tf" width="61" height="36.95" isSelectable="false" renderAsHTML="true">
+                  <matrix>
+                    <Matrix tx="-63" ty="-16.3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>11</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" rotation="true" lineHeight="36.95" size="28" bitmapSize="560" face="Main*" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#7CFB1F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Symbol 28" name="Icon_mc" centerPoint3DX="-29.65" centerPoint3DY="9.4">
+                  <matrix>
+                    <Matrix a="1.11111450195313" d="1.11111450195313" tx="-39"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

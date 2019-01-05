@@ -1,0 +1,87 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#333333" width="876" height="700" frameRate="30" currentTimeline="1" xflVersion="2.97" creatorInfo="Adobe Animate CC" platform="Windows" versionInfo="Saved by Animate Windows 19.0 build 326" majorVersion="19" buildNumber="326" vanishingPoint3DX="438" vanishingPoint3DY="350" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveHasPrompted="true" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="4CCB4255E877274CB12FDBC2C2B838C7">
+     <fonts>
+          <DOMFontItem name="Main Bold" itemID="5c1353b6-00000223" linkageImportForRS="true" linkageExportInFirstFrame="false" linkageClassName="$MAIN_Font_Bold" linkageURL="./fonts_en.swf" font="Roboto Condensed Bold" size="0" id="80" embeddedCharacters=" &#xD;¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƒƠơƯưǰǺǻǼǽǾǿȘșȚțȷˆˇˉ˘˙˚˛˜˝΄΅Ά·ΈΉΊΌΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώϑϒϖЀЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяѐёђѓєѕіїјљњћќѝўџѠѡѢѣѤѥѦѧѨѩѪѫѬѭѮѯѰѱѲѳѴѵѶѷѸѹѺѻѼѽѾѿҀҁ҂҃҄҅҆҈҉ҊҋҌҍҎҏҐґҒғҔҕҖҗҘҙҚқҜҝҞҟҠҡҢңҤҥҦҧҨҩҪҫҬҭҮүҰұҲҳҴҵҶҷҸҹҺһҼҽҾҿӀӁӂӃӄӅӆӇӈӉӊӋӌӍӎḀḁḾḿẀẁẂẃẄẅẠạẢảẤấẦầẨẩẪẫẬậẮắẰằẲẳẴẵẶặẸẹẺẻẼẽẾếỀềỂểỄễỆệỈỉỊịỌọỎỏỐốỒồỔổỖỗỘộỚớỜờỞởỠỡỢợỤụỦủỨứỪừỬửỮữỰựỲỳỴỵỶỷỸỹὍ           ​–—―‗‘’‚‛“”„†‡•‥…‰′″‹›‼⁄⁴ⁿ₣₤₧₫€℅ℓ№™Ω℮⅛⅜⅝⅞∂∏∑√∞∫≠≤≥﻿￼" embedRanges="1|2|3|4|5"/>
+          <DOMFontItem name="Main" itemID="5c1353b6-00000222" linkageImportForRS="true" linkageExportInFirstFrame="false" linkageClassName="$MAIN_Font" linkageURL="./fonts_en.swf" font="Roboto Condensed Regular" size="0" id="81" embeddedCharacters=" &#xD;¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſƒƠơƯưǰǺǻǼǽǾǿȘșȚțȷˆˇˉ˘˙˚˛˜˝΄΅Ά·ΈΉΊΌΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώϑϒϖЀЁЂЃЄЅІЇЈЉЊЋЌЍЎЏАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяѐёђѓєѕіїјљњћќѝўџѠѡѢѣѤѥѦѧѨѩѪѫѬѭѮѯѰѱѲѳѴѵѶѷѸѹѺѻѼѽѾѿҀҁ҂҃҄҅҆҈҉ҊҋҌҍҎҏҐґҒғҔҕҖҗҘҙҚқҜҝҞҟҠҡҢңҤҥҦҧҨҩҪҫҬҭҮүҰұҲҳҴҵҶҷҸҹҺһҼҽҾҿӀӁӂӃӄӅӆӇӈӉӊӋӌӍӎḀḁḾḿẀẁẂẃẄẅẠạẢảẤấẦầẨẩẪẫẬậẮắẰằẲẳẴẵẶặẸẹẺẻẼẽẾếỀềỂểỄễỆệỈỉỊịỌọỎỏỐốỒồỔổỖỗỘộỚớỜờỞởỠỡỢợỤụỦủỨứỪừỬửỮữỰựỲỳỴỵỶỷỸỹὍ           ​–—―‗‘’‚‛“”„†‡•‥…‰′″‹›‼⁄⁴ⁿ₣₤₧₫€℅ℓ№™Ω℮⅛⅜⅝⅞∂∏∑√∞∫≠≤≥﻿￼" embedRanges="1|2|3|4|5"/>
+          <DOMFontItem name="Terminal" itemID="5c1353b6-00000221" linkageImportForRS="true" linkageExportInFirstFrame="false" linkageClassName="$Terminal_Font" linkageURL="./fonts_en.swf" font="Share-TechMono" size="0" id="82" sourceLastImported="1544770486" embeddedCharacters="¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĄąĆćĘęıŁłŃńŒœŚśŠšŸŹźŻżŽžƒˆˇˉ˘˙˚˛˜˝ΔΩμπЀЁЍАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяѐёѝ–—‘’‚“”„†‡•…‰‹›⁄€™Ω∂∏∑∕√∞∧∫≠≤≥" embedRanges="1|2|3|4|5"/>
+          <DOMFontItem name="Creative Club" itemID="5c1353b6-00000220" linkageImportForRS="true" linkageExportInFirstFrame="false" linkageClassName="$CClub_Font" linkageURL="./fonts_en.swf" font="Eurostile LT Std Roman" size="0" id="83" embeddedCharacters="¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĄąĆćĘęıŁłŃńŒœŚśŠšŸŹźŻżŽžƒˆˇˉ˘˙˚˛˜˝ΔΩμπЁАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяё–—‘’‚“”„†‡•…‰‹›⁄€ℓ™Ω℮∂∏∑∕√∞∫≠≤≥" embedRanges="1|2|3|4|5"/>
+          <DOMFontItem name="Brody" itemID="5c1353b6-0000021f" linkageImportForRS="true" linkageExportInFirstFrame="false" linkageClassName="$BRODY" linkageURL="./fonts_en.swf" font="Brody" size="0" id="84" embeddedCharacters="¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĂăĄąĆćČčĎďĐđĘęĚěĞğİıĹĺĽľŁłŃńŇňŐőŒœŔŕŘřŚśŞşŠšŢţŤťŮůŰűŸŹźŻżŽžƒˆˇˉ˘˙˚˛˜ΔΣΩμπ–—‗‘’‚“”„†‡•…‰‹›‼ⁿ₣™Ω←→∂∏∕√∞∫≠≤≥■" embedRanges="1|2|3|4|5"/>
+          <DOMFontItem name="Controller Buttons" itemID="5c1353b6-0000021e" linkageImportForRS="true" linkageExportInFirstFrame="false" linkageClassName="$Controller_Buttons" linkageURL="./fonts_en.swf" font="Controller--Buttons" size="0" id="85" embedRanges="1|2"/>
+          <DOMFontItem name="Creative Club Bold" itemID="5c1353b6-0000021d" linkageImportForRS="true" linkageExportInFirstFrame="false" linkageClassName="$CClub_Font_Bold" linkageURL="./fonts_en.swf" font="Eurostile Cyr Std Bold" size="0" id="86" embeddedCharacters="¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿĄąĆćĘęıŁłŃńŒœŚśŠšŸŹźŻżŽžƒˆˇˉ˘˙˚˛˜˝ΔΩμπЁАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяё–—‘’‚“”„†‡•…‰‹›⁄€ℓ™Ω℮∂∏∑∕√∞∫≠≤≥" embedRanges="1|2|3|4|5"/>
+          <DOMFontItem name="Handwritten Institute" itemID="5c1353b6-0000021c" linkageImportForRS="true" linkageExportInFirstFrame="false" linkageClassName="$HandwrittenFont" linkageURL="./fonts_en.swf" font="Handwritten_Institute" size="0" id="87" embeddedCharacters="!&quot;#$%&amp;&apos;()*+,-/:;&lt;=&gt;?@[\]^_{|}~¡¢£¤§©«¬®°±²µ¶»¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿĄąĆćĈĉĔęĜĝĤĥıĴĵŁłŃńŐőŒœŚśŜŝŠšŬŭŰűŸŹźŻżŽžƒμ‘’“”†‡•€™" embedRanges="1|2|3"/>
+          <DOMFontItem name="Controller Buttons Inverted" itemID="5c1353b6-0000021b" linkageImportForRS="true" linkageExportInFirstFrame="false" linkageClassName="$Controller_Buttons_inverted" linkageURL="./fonts_en.swf" font="Controller--Buttons-inverted" size="0" id="88" embedRanges="1|2"/>
+     </fonts>
+     <media>
+          <DOMBitmapItem name="bitmap1.png" itemID="5c1352d2-000001f1" linkageExportForAS="true" linkageClassName="MapPlaceholder" sourceExternalFilepath="./LIBRARY/bitmap1.png" sourceLastImported="1544770258" externalFileCRC32="2868116800" externalFileSize="69" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="bitmap1.png" bitmapDataHRef="M 1 1544396376.dat" frameRight="160" frameBottom="140"/>
+     </media>
+     <symbols>
+          <Include href="Pipboy Header.xml" itemID="5c1358f6-0000022c" lastModified="1544772345"/>
+          <Include href="Pipboy Header Backup.xml" loadImmediate="false" itemID="5c135a66-00000247" lastModified="1544772198"/>
+          <Include href="Pipboy Tabs.xml" itemID="5c1358fa-0000022d" lastModified="1544772268"/>
+          <Include href="Pipboy Tabs Backup.xml" loadImmediate="false" itemID="5c135a85-00000249" lastModified="1544772229"/>
+          <Include href="Symbol 3.xml" loadImmediate="false" itemID="5c1352d2-000001f2" lastModified="1544770743"/>
+          <Include href="Symbol 4.xml" itemID="5c1352d2-000001f3" lastModified="1544396376"/>
+          <Include href="Symbol 5.xml" itemIcon="1" loadImmediate="false" itemID="5c1352d2-000001f4" lastModified="1544396376"/>
+          <Include href="Symbol 8.xml" itemID="5c1352d2-000001f5" lastModified="1544770746"/>
+          <Include href="Symbol 11.xml" loadImmediate="false" itemID="5c1352d2-000001f6" lastModified="1544771805"/>
+          <Include href="Symbol 12.xml" itemID="5c1352d2-000001f7" lastModified="1544770491"/>
+          <Include href="Symbol 13.xml" itemID="5c1352d2-000001f8" lastModified="1544770513"/>
+          <Include href="Symbol 15.xml" loadImmediate="false" itemID="5c1352d2-000001f9" lastModified="1544396376"/>
+          <Include href="Symbol 17.xml" loadImmediate="false" itemID="5c1352d2-000001fa" lastModified="1544396376"/>
+          <Include href="Symbol 19.xml" loadImmediate="false" itemID="5c1352d2-000001fb" lastModified="1544396376"/>
+          <Include href="Symbol 21.xml" loadImmediate="false" itemID="5c1352d2-000001fc" lastModified="1544396376"/>
+          <Include href="Symbol 23.xml" loadImmediate="false" itemID="5c1352d2-000001fd" lastModified="1544396376"/>
+          <Include href="Symbol 25.xml" loadImmediate="false" itemID="5c1352d2-000001fe" lastModified="1544396376"/>
+          <Include href="Symbol 27.xml" loadImmediate="false" itemID="5c1352d2-000001ff" lastModified="1544396376"/>
+          <Include href="Symbol 28.xml" itemID="5c301f0b-00000200" lastModified="1544396376"/>
+          <Include href="Symbol 30.xml" itemID="5c1352d2-00000201" lastModified="1544771353"/>
+          <Include href="Symbol 32.xml" loadImmediate="false" itemID="5c1352d2-00000202" lastModified="1544396376"/>
+          <Include href="Symbol 34.xml" loadImmediate="false" itemID="5c1352d2-00000203" lastModified="1544396376"/>
+          <Include href="Symbol 35.xml" itemID="5c301f0b-00000204" lastModified="1544396376"/>
+          <Include href="Symbol 37.xml" itemID="5c1352d2-00000205" lastModified="1544770659"/>
+          <Include href="Symbol 39.xml" loadImmediate="false" itemID="5c1352d2-00000206" lastModified="1544771876"/>
+          <Include href="Symbol 40.xml" loadImmediate="false" itemID="5c1352d2-00000207" lastModified="1544772331"/>
+          <Include href="Symbol 43.xml" loadImmediate="false" itemID="5c1352d2-00000209" lastModified="1544396376"/>
+          <Include href="Symbol 44.xml" loadImmediate="false" itemID="5c1352d2-0000020a" lastModified="1544396376"/>
+          <Include href="Symbol 50.xml" loadImmediate="false" itemID="5c1352d2-0000020b" lastModified="1544771857"/>
+          <Include href="Symbol 53.xml" loadImmediate="false" itemID="5c1352d2-0000020d" lastModified="1544396376"/>
+          <Include href="Symbol 55.xml" loadImmediate="false" itemID="5c1352d2-0000020e" lastModified="1544396376"/>
+          <Include href="Symbol 56.xml" itemID="5c1352d2-0000020f" lastModified="1544396376"/>
+          <Include href="Symbol 57.xml" itemID="5c1352d2-00000210" lastModified="1544396376"/>
+          <Include href="Symbol 59.xml" loadImmediate="false" itemID="5c1352d2-00000211" lastModified="1544396376"/>
+          <Include href="Symbol 61.xml" itemID="5c301f0b-0000020d" lastModified="1544396376"/>
+          <Include href="Symbol 63.xml" loadImmediate="false" itemID="5c1352d2-00000213" lastModified="1544396376"/>
+          <Include href="Symbol 68.xml" loadImmediate="false" itemID="5c1352d2-00000214" lastModified="1544396376"/>
+          <Include href="Symbol 70.xml" loadImmediate="false" itemID="5c1352d2-00000215" lastModified="1544396376"/>
+          <Include href="Symbol 77.xml" itemID="5c1352d2-00000216" lastModified="1544772889"/>
+          <Include href="Symbol 78.xml" itemID="5c1352d2-00000217" lastModified="1544772815"/>
+          <Include href="Symbol 79.xml" itemID="5c1352d2-00000218" lastModified="1544771772"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1">
+               <layers>
+                    <DOMLayer name="Layer 1" color="#7ED976" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Symbol 79" name="Menu_mc" selected="true" centerPoint3DX="632.9" centerPoint3DY="330.95">
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <scripts/>
+     <PrinterSettings/>
+     <publishHistory>
+          <PublishItem publishSize="46874" publishTime="1544772438"/>
+          <PublishItem publishSize="46983" publishTime="1544771887"/>
+          <PublishItem publishSize="46965" publishTime="1544771434"/>
+          <PublishItem publishSize="46965" publishTime="1544771238"/>
+          <PublishItem publishSize="63809" publishTime="1544771222" publishDebug="true"/>
+     </publishHistory>
+</DOMDocument>

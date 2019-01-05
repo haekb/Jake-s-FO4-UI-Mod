@@ -1,0 +1,34 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Symbol 68" itemID="5c10919e-00000039" linkageExportForAS="true" linkageClassName="Pipboy_InvPage_fla.FavoriteIcon_42" lastModified="1544507382">
+  <timeline>
+    <DOMTimeline name="Symbol 68">
+      <layers>
+        <DOMLayer name="Labels Layer" color="#5586F0">
+          <frames>
+            <DOMFrame index="0" name="fav" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#52ED7F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isFloating="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!29 -100|8 -80!8 -80|0 -68!0 -68[-10 -87 -29 -100!-29 -100[-66 -128 -104 -112!-104 -112[-130 -100 -141 -78!-141 -78[-153 -58 -150 -32!-150 -32|-147 -22!-147 -22[-144 -4 -131 10!-131 10[-113 31 -87 38!-87 38[-60 47 -34 71!-34 71[-8 94
+ -1 118!-1 118[2 96 32 71!32 71[58 49 88 38!88 38[114 31 131 10!131 10|148 -22!148 -22|150 -32!150 -32[153 -58 142 -78!142 -78[131 -100 104 -112!104 -112[66 -128 29 -100"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

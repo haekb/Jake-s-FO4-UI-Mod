@@ -1,0 +1,44 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="DEBUG" itemID="5c10bcaa-000001e7" linkageExportForAS="true" linkageClassName="Debug" lastModified="1544681556">
+  <timeline>
+    <DOMTimeline name="DEBUG">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.8"/>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <SolidColor color="#999999" alpha="0.8"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" fillStyle1="2" edges="!10466 1815|10466 1818!10466 1818|-7484 1818!-7484 1818|-7484 1815"/>
+                    <Edge fillStyle1="2" edges="!-7484 1815|-7484 1713!-7484 1713|10466 1713!10466 1713|10466 1815"/>
+                    <Edge fillStyle1="1" edges="!10466 1815|10487 1815!10487 1815|10487 12931!10487 12931|-7505 12931!-7505 12931|-7505 1815!-7505 1815|-7484 1815"/>
+                  </edges>
+                </DOMShape>
+                <DOMDynamicText name="debugText" width="895.6" height="551.8" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="-373.25" ty="92.75"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Script error or debug log not init'd</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" rotation="true" lineSpacing="5" lineHeight="34.3" size="26" bitmapSize="520" face="RobotoCondensed-Regular" fillColor="#CCCCCC"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
