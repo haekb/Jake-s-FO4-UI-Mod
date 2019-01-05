@@ -85,11 +85,11 @@
 
 		private var SortText: Array;
 
-		private var previousSelectedNodeId : *;
+		private var previousSelectedNodeId: * ;
 
 		public function Pipboy_InvPage() {
 			trace("LOAD>> Pipboy InvPage");
-			trace("max trunc text >> "+GlobalFunc.MAX_TRUNCATED_TEXT_LENGTH);
+			trace("max trunc text >> " + GlobalFunc.MAX_TRUNCATED_TEXT_LENGTH);
 			this.HolotapeButton = new BSButtonHintData("$HolotapePlay", "Enter", "PSN_A", "Xenon_A", 1, this.SelectItem);
 			this.NoteReadButton = new BSButtonHintData("$READ", "Enter", "PSN_A", "Xenon_A", 1, this.SelectItem);
 			this.InspectButton = new BSButtonHintData("$INSPECT", "X", "PSN_R3", "Xenon_R3", 1, this.ExamineItem);
@@ -146,7 +146,7 @@
 
 		}
 
-		public function deliverSortEvents(evt: CustomEvent) : void {
+		public function deliverSortEvents(evt: CustomEvent): void {
 			trace("Is deliverSortEvents used?");
 
 			this.List_mc.sortList("$DMG");
@@ -155,11 +155,11 @@
 			//dispatchEvent(evt);
 		}
 
-		public function logDebug(evt: CustomEvent) : void {
+		public function logDebug(evt: CustomEvent): void {
 			//this.Debug_mc.Log(evt.params.toString());
 		}
 
-		public function logObject(evt: CustomEvent) : void {
+		public function logObject(evt: CustomEvent): void {
 			//this.Debug_mc.deepTrace(evt.params, 5);
 		}
 
@@ -184,49 +184,49 @@
 		override protected function GetUpdateMask(): PipboyUpdateMask {
 			return PipboyUpdateMask.Inventory;
 		}
-		
-		private function showCapabilities():void {
-            this.Debug_mc.Log("avHardwareDisable: " + Capabilities.avHardwareDisable);
-            this.Debug_mc.Log("hasAccessibility: " + Capabilities.hasAccessibility);
-            this.Debug_mc.Log("hasAudio: " + Capabilities.hasAudio);
-            this.Debug_mc.Log("hasAudioEncoder: " + Capabilities.hasAudioEncoder);
-            this.Debug_mc.Log("hasEmbeddedVideo: " + Capabilities.hasEmbeddedVideo);
-            this.Debug_mc.Log("hasIME: " + Capabilities.hasIME);
-            this.Debug_mc.Log("hasMP3: " + Capabilities.hasMP3);
-            this.Debug_mc.Log("hasPrinting: " + Capabilities.hasPrinting);
-            this.Debug_mc.Log("hasScreenBroadcast: " + Capabilities.hasScreenBroadcast);
-            this.Debug_mc.Log("hasScreenPlayback: " + Capabilities.hasScreenPlayback);
-            this.Debug_mc.Log("hasStreamingAudio: " + Capabilities.hasStreamingAudio);
-            this.Debug_mc.Log("hasStreamingVideo: " + Capabilities.hasStreamingVideo);
-            this.Debug_mc.Log("hasTLS: " + Capabilities.hasTLS);
-            this.Debug_mc.Log("hasVideoEncoder: " + Capabilities.hasVideoEncoder);
-            this.Debug_mc.Log("isDebugger: " + Capabilities.isDebugger);
-            this.Debug_mc.Log("isEmbeddedInAcrobat: " + Capabilities.isEmbeddedInAcrobat);
-            this.Debug_mc.Log("language: " + Capabilities.language);
-            this.Debug_mc.Log("localFileReadDisable: " + Capabilities.localFileReadDisable);
-            this.Debug_mc.Log("manufacturer: " + Capabilities.manufacturer);
-            this.Debug_mc.Log("maxLevelIDC: " + Capabilities.maxLevelIDC);
-            this.Debug_mc.Log("os: " + Capabilities.os);
-            this.Debug_mc.Log("pixelAspectRatio: " + Capabilities.pixelAspectRatio);
-            this.Debug_mc.Log("playerType: " + Capabilities.playerType);
-            this.Debug_mc.Log("screenColor: " + Capabilities.screenColor);
-            this.Debug_mc.Log("screenDPI: " + Capabilities.screenDPI);
-            this.Debug_mc.Log("screenResolutionX: " + Capabilities.screenResolutionX);
-            this.Debug_mc.Log("screenResolutionY: " + Capabilities.screenResolutionY);
-            this.Debug_mc.Log("serverString: " + Capabilities.serverString);
-            this.Debug_mc.Log("touchscreenType: " + Capabilities.touchscreenType);
-            
-            // The following capabilities are supported only when publishing for AIR.
-            // If you are publishing for AIR, uncomment the following lines.       
-            //trace("cpuArchitecture: " + Capabilities.cpuArchitecture);
-            //trace("languages: " + Capabilities.languages);
-            //trace("supports32BitProcesses: " + Capabilities.supports32BitProcesses);
-            //trace("supports64BitProcesses: " + Capabilities.supports64BitProcesses);        
-                        
-            this.Debug_mc.Log("version: " + Capabilities.version);
-       
-        }
-	
+
+		private function showCapabilities(): void {
+			this.Debug_mc.Log("avHardwareDisable: " + Capabilities.avHardwareDisable);
+			this.Debug_mc.Log("hasAccessibility: " + Capabilities.hasAccessibility);
+			this.Debug_mc.Log("hasAudio: " + Capabilities.hasAudio);
+			this.Debug_mc.Log("hasAudioEncoder: " + Capabilities.hasAudioEncoder);
+			this.Debug_mc.Log("hasEmbeddedVideo: " + Capabilities.hasEmbeddedVideo);
+			this.Debug_mc.Log("hasIME: " + Capabilities.hasIME);
+			this.Debug_mc.Log("hasMP3: " + Capabilities.hasMP3);
+			this.Debug_mc.Log("hasPrinting: " + Capabilities.hasPrinting);
+			this.Debug_mc.Log("hasScreenBroadcast: " + Capabilities.hasScreenBroadcast);
+			this.Debug_mc.Log("hasScreenPlayback: " + Capabilities.hasScreenPlayback);
+			this.Debug_mc.Log("hasStreamingAudio: " + Capabilities.hasStreamingAudio);
+			this.Debug_mc.Log("hasStreamingVideo: " + Capabilities.hasStreamingVideo);
+			this.Debug_mc.Log("hasTLS: " + Capabilities.hasTLS);
+			this.Debug_mc.Log("hasVideoEncoder: " + Capabilities.hasVideoEncoder);
+			this.Debug_mc.Log("isDebugger: " + Capabilities.isDebugger);
+			this.Debug_mc.Log("isEmbeddedInAcrobat: " + Capabilities.isEmbeddedInAcrobat);
+			this.Debug_mc.Log("language: " + Capabilities.language);
+			this.Debug_mc.Log("localFileReadDisable: " + Capabilities.localFileReadDisable);
+			this.Debug_mc.Log("manufacturer: " + Capabilities.manufacturer);
+			this.Debug_mc.Log("maxLevelIDC: " + Capabilities.maxLevelIDC);
+			this.Debug_mc.Log("os: " + Capabilities.os);
+			this.Debug_mc.Log("pixelAspectRatio: " + Capabilities.pixelAspectRatio);
+			this.Debug_mc.Log("playerType: " + Capabilities.playerType);
+			this.Debug_mc.Log("screenColor: " + Capabilities.screenColor);
+			this.Debug_mc.Log("screenDPI: " + Capabilities.screenDPI);
+			this.Debug_mc.Log("screenResolutionX: " + Capabilities.screenResolutionX);
+			this.Debug_mc.Log("screenResolutionY: " + Capabilities.screenResolutionY);
+			this.Debug_mc.Log("serverString: " + Capabilities.serverString);
+			this.Debug_mc.Log("touchscreenType: " + Capabilities.touchscreenType);
+
+			// The following capabilities are supported only when publishing for AIR.
+			// If you are publishing for AIR, uncomment the following lines.       
+			//trace("cpuArchitecture: " + Capabilities.cpuArchitecture);
+			//trace("languages: " + Capabilities.languages);
+			//trace("supports32BitProcesses: " + Capabilities.supports32BitProcesses);
+			//trace("supports64BitProcesses: " + Capabilities.supports64BitProcesses);        
+
+			this.Debug_mc.Log("version: " + Capabilities.version);
+
+		}
+
 
 		override protected function onPipboyChangeEvent(param1: PipboyChangeEvent): void {
 			super.onPipboyChangeEvent(param1);
@@ -266,7 +266,7 @@
 			if (this._CurrentTab != param1.DataObj.CurrentTab) {
 				trace("Tab Change -----");
 				this.List_mc.selectedIndex = int(this.List_mc.filterer.ClampIndex(param1.DataObj.InvSelectedItems[param1.DataObj.CurrentTab]));
-				trace("Default selected index: "+ this.List_mc.selectedIndex)
+				trace("Default selected index: " + this.List_mc.selectedIndex)
 				this.List_mc.resetEntries();
 				this.List_mc.setDefaultExpandedEntry();
 			}
@@ -294,7 +294,7 @@
 			BGSExternalInterface.call(this.codeObj, "onInvItemSelection", this.List_mc.selectedIndex, this.ItemCard_mc.InfoObj, this.PaperDoll_mc.selectedInfoObj, this);
 		}
 
-				private function UpdateInvInfoObject(): void {
+		private function UpdateInvInfoObject(): void {
 			// Update every item
 			try {
 
@@ -307,7 +307,7 @@
 					// Get the info for this item
 					BGSExternalInterface.call(this.codeObj, "onInvItemSelection", this.List_mc.GetEntryFromClipIndex(i), itemObjArr, paperDollArr, this);
 
-					var entry : InvListEntry = this.List_mc.GetClipByIndex(i) as InvListEntry;
+					var entry: InvListEntry = this.List_mc.GetClipByIndex(i) as InvListEntry;
 
 					entry.infoObj = itemObjArr;
 					entry.currentTab = this._CurrentTab;
@@ -357,7 +357,7 @@
 					// Get the info for this item
 					BGSExternalInterface.call(this.codeObj, "onInvItemSelection", this.List_mc.GetEntryFromClipIndex(i), itemObjArr, paperDollArr, this);
 
-					var entry : InvListEntry = this.List_mc.GetClipByIndex(i) as InvListEntry;
+					var entry: InvListEntry = this.List_mc.GetClipByIndex(i) as InvListEntry;
 
 					entry.infoObj = itemObjArr;
 					entry.currentTab = this._CurrentTab;
@@ -432,7 +432,7 @@
 			this.SetButtons();
 		}
 
-		private function ChangeSelectedLegend() : void {
+		private function ChangeSelectedLegend(): void {
 			trace("Sending Change Legend Event");
 			this.InvLegend_mc.dispatchEvent(new Event("SortableLegend::ChangeLegend", true, true));
 		}
@@ -612,7 +612,7 @@
 			try {
 				this.List_mc.sortList("damage");
 			} catch (erro: Error) {
-				this.Debug_mc.Log("Aw man, sort broke!\n\t"+erro.errorID+"\n\t"+erro.name+"\n\t"+erro.message+"\n\t"+erro.getStackTrace());
+				this.Debug_mc.Log("Aw man, sort broke!\n\t" + erro.errorID + "\n\t" + erro.name + "\n\t" + erro.message + "\n\t" + erro.getStackTrace());
 			}
 			//BGSExternalInterface.call(this.codeObj, "SortItemList", this);
 		}
