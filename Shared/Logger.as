@@ -16,7 +16,7 @@ package Shared {
 			trace("["+level+"] "+text);
 		}
 
-		public static function deepTrace(obj: * , level: int = 0, isRecursive:Boolean = false): void {
+		public static function DeepTrace(obj: * , level: int = 0, isRecursive:Boolean = false): void {
 			var tabs: String = "";
 			var displayedSomething:Boolean = false;
 
@@ -30,7 +30,7 @@ package Shared {
 
 			for (var prop: String in obj) {
 				trace(tabs + "[" + prop + "] -> " + obj[prop]);
-				deepTrace(obj[prop], level + 1, true);
+				DeepTrace(obj[prop], level + 1, true);
 				displayedSomething = true;
 			}
 
@@ -39,7 +39,6 @@ package Shared {
 			}
 
 		}
-
 	}
 
 }//trace("LOAD>> Fader Menu");
