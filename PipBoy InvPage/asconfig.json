@@ -1,0 +1,14 @@
+{
+    "config": "flex",
+    "compilerOptions": {
+        "output": "bin/Pipboy_InvPage.swf",
+        "source-path": [
+            "./"
+        ]
+        
+    },
+    "files":
+    [
+        "Pipboy_InvPage.as"
+    ]
+}
