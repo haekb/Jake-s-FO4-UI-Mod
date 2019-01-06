@@ -14,7 +14,7 @@ I recommend using something like Visual Studio Code for the Actionscript files, 
 Once compiled/published, place the SWFs in `Fallout 4\Data\Interface`. 
 
 # Shared Folder
-The UI code uses a `Shared` package. However this is not stored in a one off swf. Instead peices are put in each published swf. Normally you'd just modify them like any other file, but in this case `PipboyMenu.swf` loads `PipBoy InvPage.swf`. So the shared code from `PipboyMenu.swf` is already loaded memory by the time it loads in `PipBoy InvPage.swf`. So basically if you have to edit any `Shared` package code, make sure to publish `PipboyMenu.swf` as well!
+The UI code uses a `Shared` package. However this is not stored in a one off swf. Instead pieces are put in each published swf. Normally you'd just modify them like any other file, but in this case `PipboyMenu.swf` loads `PipBoy InvPage.swf`. So the shared code from `PipboyMenu.swf` is already loaded memory by the time it loads in `PipBoy InvPage.swf`. So basically if you have to edit any `Shared` package code, make sure to publish `PipboyMenu.swf` as well!
 
 # Live Reloading
 By default (for some reason...) most (if not all) of Fallout 4's UI code is loaded on demand and not cached. So you can leave the game running, save a new swf and press tab to view your new pipboy immediately. 
@@ -29,7 +29,7 @@ bEnableGFXLog=1
 
 The log file should be generated `My Documents\my games\Fallout4\F4SE` as `f4se.log`. You can use tail to live load the file.
 
-Note: Before I found out about this (Thanks [Scrivener](https://github.com/Scrivener07) for the tip!) I wrote a mini on screen debug logger. It's still semi-functional but it'll be removed eventually. You can activate it in the invetory screen by pressing scroll lock!
+Note: Before I found out about this (Thanks [Scrivener](https://github.com/Scrivener07) for the tip!) I wrote a mini on screen debug logger. It's still semi-functional but it'll be removed eventually. You can activate it in the inventory screen by pressing scroll lock!
 
 
 # Fonts Fonts Fonts!
