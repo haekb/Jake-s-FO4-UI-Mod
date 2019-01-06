@@ -1,0 +1,14 @@
+{
+    "config": "flex",
+    "compilerOptions": {
+        "output": "bin/PipboyMenu.swf",
+        "source-path": [
+            "./"
+        ]
+        
+    },
+    "files":
+    [
+        "PipboyMenu.as"
+    ]
+}
