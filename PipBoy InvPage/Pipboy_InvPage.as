@@ -18,6 +18,8 @@
 	import flash.net.*;
 	import flash.system.Capabilities;
 	import Shared.GlobalFunc;
+	import Shared.Logger;
+	import flash.utils.describeType;
 
 	public class Pipboy_InvPage extends PipboyPage {
 
@@ -56,6 +58,8 @@
 		private var _ComponentViewMode: Boolean;
 
 		private var _SortMode: uint;
+
+		private var _SortSkip: Boolean;
 
 		private var _SortSelectionRestoreIndex: int;
 
@@ -102,7 +106,7 @@
 			this.SortButton = new BSButtonHintData("$SORT", "Z", "PSN_L3", "Xenon_L3", 1, this.onSortPress);
 			this.SortText = ["$SORT", "$SORT_DMG", "$SORT_ROF", "$SORT_RNG", "$SORT_ACC", "$SORT_VAL", "$SORT_WT"];
 
-			this.ChangeLegendButton = new BSButtonHintData("Change Selected Legend", "Z", "PSN_L3", "Xenon_L3", 1, this.ChangeSelectedLegend);
+			//this.ChangeLegendButton = new BSButtonHintData("Change Selected Legend", "Z", "PSN_L3", "Xenon_L3", 1, this.ChangeSelectedLegend);
 
 			super();
 			_TabNames = new Array("$InventoryCategoryWeapons", "$InventoryCategoryApparel", "$InventoryCategoryAid", "$InventoryCategoryMisc", "$InventoryCategoryJunk", "$InventoryCategoryMods", "$InventoryCategoryAmmo");
@@ -112,6 +116,7 @@
 			this._HolotapePlaying = false;
 			this._ComponentViewMode = false;
 			this._SortMode = uint(0);
+			this._SortSkip = false;
 			this._SortSelectionRestoreIndex = -1;
 			this._FavoritesMenu = new PipboyFavoritesMenu();
 			this.ComponentOwnersList_mc.disableInput = true;
@@ -176,8 +181,8 @@
 			_buttonHintDataV.push(this.AcceptButton);
 			_buttonHintDataV.push(this.CancelButton);
 			// Users can now sort with clicking the legend!
-			//_buttonHintDataV.push(this.SortButton);
-			_buttonHintDataV.push(this.ChangeLegendButton);
+			_buttonHintDataV.push(this.SortButton);
+			//_buttonHintDataV.push(this.ChangeLegendButton);
 
 		}
 
@@ -229,6 +234,13 @@
 
 
 		override protected function onPipboyChangeEvent(param1: PipboyChangeEvent): void {
+			trace("OnPipboyChangeEvent");
+
+			// If we're in sortSkip state, then don't process the change.
+			if(this._SortSkip) {
+				return;
+			}
+
 			super.onPipboyChangeEvent(param1);
 
 			if (param1.DataObj.CurrentTab != 4) {
@@ -244,8 +256,10 @@
 
 			this.List_mc.filterer.itemFilter = param1.DataObj.InvFilter;
 
+
 			if (!this._ComponentViewMode) {
 				this.List_mc.InvalidateData();
+				this.UpdateInvInfoObject();
 			}
 			if (this.List_mc.selectedEntry != null) {
 				if (this._ShowingQuantity && this._quantityMenuOnItemID != this.List_mc.selectedEntry.nodeID) {
@@ -280,6 +294,9 @@
 			this.PaperDoll_mc.onDataChange();
 			this._HolotapePlaying = param1.DataObj.HolotapePlaying;
 			this._SortMode = param1.DataObj.SortMode;
+
+			Logger.Log("Sort Mode: "+this._SortMode);
+
 			this.SetButtons();
 			SetIsDirty();
 
@@ -288,7 +305,7 @@
 			this.InvLegend_mc.handleTabChange(param1.DataObj.CurrentTab);
 
 			// Update the inv list info obj
-			this.UpdateInvInfoObject();
+			//this.UpdateInvInfoObject();
 
 			// Legacy: Call it for this index
 			BGSExternalInterface.call(this.codeObj, "onInvItemSelection", this.List_mc.selectedIndex, this.ItemCard_mc.InfoObj, this.PaperDoll_mc.selectedInfoObj, this);
@@ -313,78 +330,6 @@
 					entry.currentTab = this._CurrentTab;
 
 					entry.updateInfoText();
-
-					if (this.List_mc.GetEntryFromClipIndex(i) == this.List_mc.selectedIndex) {
-						this.Debug_mc.Log("Found infoObj for item: " + i);
-						try {
-							for (var indexo: String in itemObjArr) {
-								var log: String = "ItemCard::InfoObj[" + indexo + "] >> ";
-
-								for (var id: String in itemObjArr[indexo]) {
-									var value: Object = itemObjArr[indexo][id];
-									log += "\n\t" + id + " = " + value;
-								}
-								this.Debug_mc.Log(log);
-							}
-						} catch (error: Error) {
-							this.Debug_mc.Log("Error Occured getting info object from item card:\n" + error.name + "\n" + error.message + "\n" + error.getStackTrace());
-						}
-					}
-
-
-					//this.Debug_mc.Log("Retrieved and set infoObj for item: "+i);
-
-
-				}
-			} catch (error: Error) {
-				this.Debug_mc.Log("Error Occured getting info object:\n" + error.name + "\n" + error.message + "\n" + error.getStackTrace());
-			}
-			this.Debug_mc.Log("Set tab to " + this._CurrentTab);
-
-		}
-
-
-		private function UpdateInvInfoObject2(): void {
-			// Update every item
-			try {
-
-				for (var i: int; i < this.List_mc.getNumEntries(); i++) {
-					//this.Debug_mc.Log("Retrieving infoObj for item: "+i);
-
-					var itemObjArr: Array = new Array();
-					var paperDollArr: Array = new Array();
-
-					// Get the info for this item
-					BGSExternalInterface.call(this.codeObj, "onInvItemSelection", this.List_mc.GetEntryFromClipIndex(i), itemObjArr, paperDollArr, this);
-
-					var entry: InvListEntry = this.List_mc.GetClipByIndex(i) as InvListEntry;
-
-					entry.infoObj = itemObjArr;
-					entry.currentTab = this._CurrentTab;
-
-					entry.updateInfoText();
-
-					if (this.List_mc.GetEntryFromClipIndex(i) == this.List_mc.selectedIndex) {
-						this.Debug_mc.Log("Found infoObj for item: " + i);
-						try {
-							for (var indexo: String in itemObjArr) {
-								var log: String = "ItemCard::InfoObj[" + indexo + "] >> ";
-
-								for (var id: String in itemObjArr[indexo]) {
-									var value: Object = itemObjArr[indexo][id];
-									log += "\n\t" + id + " = " + value;
-								}
-								this.Debug_mc.Log(log);
-							}
-						} catch (error: Error) {
-							this.Debug_mc.Log("Error Occured getting info object from item card:\n" + error.name + "\n" + error.message + "\n" + error.getStackTrace());
-						}
-					}
-
-
-					//this.Debug_mc.Log("Retrieved and set infoObj for item: "+i);
-
-
 				}
 			} catch (error: Error) {
 				this.Debug_mc.Log("Error Occured getting info object:\n" + error.name + "\n" + error.message + "\n" + error.getStackTrace());
@@ -600,8 +545,8 @@
 						}
 					}
 					if (button == "L3") {
-						//this.onSortPress();
-						this.ChangeSelectedLegend();
+						this.onSortPress();
+						//this.ChangeSelectedLegend();
 					}
 				}
 			}
@@ -609,15 +554,34 @@
 		}
 
 		private function onSortPress(): * {
-			try {
-				this.List_mc.sortList("damage");
-			} catch (erro: Error) {
-				this.Debug_mc.Log("Aw man, sort broke!\n\t" + erro.errorID + "\n\t" + erro.name + "\n\t" + erro.message + "\n\t" + erro.getStackTrace());
+			trace("SortList");
+
+			//this.codeObj.SortItemList();
+
+			//trace(describeType(this));
+
+			//trace(this.codeObj.SortItemList.length);
+
+			var sortModeIndex:Object = {
+				"nothing": 0,
+				"$dmg": 1
+			};
+
+			if(this._SortMode == 3) {
+				this._SortSkip = true;
+				BGSExternalInterface.call(this.codeObj, "SortItemList", this);
+				BGSExternalInterface.call(this.codeObj, "SortItemList", this);
+				BGSExternalInterface.call(this.codeObj, "SortItemList", this);
+				BGSExternalInterface.call(this.codeObj, "SortItemList", this);
+				this._SortSkip = false;
 			}
-			//BGSExternalInterface.call(this.codeObj, "SortItemList", this);
+
+			BGSExternalInterface.call(this.codeObj, "SortItemList", this);
+			trace("SortList Done");
 		}
 
 		public function onSortComplete(param1: int): * {
+			trace("On Sort Complete!")
 			this._SortSelectionRestoreIndex = param1;
 		}
 
